@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/photo_card"
+    app:cardCornerRadius="10dp"
+    android:elevation="4dp"
+    android:layout_margin="4dp"
+    android:background="@color/color_white">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/photo_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/photo_placeholder"
+        android:scaleType="fitXY"/>
+</com.google.android.material.card.MaterialCardView>

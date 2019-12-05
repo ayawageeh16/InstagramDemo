@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InstagramDemo</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="no_data_founded"> No Data Founded!</string>
+    <string name="offline_message"> You Are Offline!</string>
+</resources>

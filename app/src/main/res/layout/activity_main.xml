@@ -32,7 +32,8 @@
                     android:id="@+id/user_profile_image"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/ic_user"/>
+                    android:contentDescription="@string/user_profile_photo"
+                    app:srcCompat="@drawable/ic_user"/>
 
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
@@ -45,7 +46,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         tools:text="Ahmed"
-                        android:text="Ahmed"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large"
                         android:textStyle="bold"
                         android:maxLines="1"/>
@@ -56,7 +56,7 @@
                         android:layout_height="wrap_content"
                         tools:text="Cairo, Egypt"
                         android:textSize="20sp"
-                        android:text="Cairo, Egypt"
+                        android:textStyle="bold"
                         android:textColor="@color/colorPrimaryDark"/>
 
 
@@ -66,7 +66,7 @@
                         android:layout_height="wrap_content"
                         tools:text="this is user's bio that might be more than one line"
                         android:textSize="16sp"
-                        android:text="this is user's bio that might be more than one line"
+                        android:layout_marginTop="4dp"
                         android:textColor="@color/colorPrimaryDark"/>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -90,6 +90,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="bottom|center"
+            android:baselineAligned="false"
             android:layout_marginStart="24dp"
             android:layout_marginLeft="24dp"
             android:layout_marginEnd="24dp"
@@ -112,7 +113,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     tools:text="109"
-                    android:text="109"
                     android:maxLines="1"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -142,7 +142,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="1.5M"
-                    android:text="1.5M"
                     android:maxLines="1"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -172,7 +171,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="71"
-                    android:text="71"
                     android:maxLines="1"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"

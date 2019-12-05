@@ -5,4 +5,7 @@
     <string name="following">Following</string>
     <string name="no_data_founded"> No Data Founded!</string>
     <string name="offline_message"> You Are Offline!</string>
+    <string name="user_profile_photo">User Profile Photo</string>
+    <string name="full_size_photo">Full Sized Photo</string>
+    <string name="photo">Photo</string>
 </resources>

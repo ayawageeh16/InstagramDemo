@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/photo_placeholder"
+        android:contentDescription="@string/full_size_photo"
         android:layout_height="400dp"/>
 
     <androidx.appcompat.widget.AppCompatTextView
